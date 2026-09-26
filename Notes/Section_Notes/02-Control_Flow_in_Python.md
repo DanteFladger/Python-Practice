@@ -110,7 +110,7 @@ The "continue" keyword skips over an iteration if the condition is met and goes 
         names = ['Dante', 'Destiny', 'Jaelyn', 'Corenda', 'Bean']
 
         for name is names:
-            if 'c' in name.lower():
+            if 'z' in name.lower():
                 continue
             else 
                 print(name)
