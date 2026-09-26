@@ -74,3 +74,18 @@ The while loop is used to execute code while its condition evaluates to be True.
             i += 1
 #### Infinite loops
 An infinite loop is a "While" loop that never terminates because the condition is always evaluated to be True.
+
+# Pass, Break, Continue
+This section will cover the three keywords, pass, break, and continue which are used to control or disrupt loops
+
+## Pass
+The "pass" keyword is mostly used as a place holder in a loop. Nothing gets executed when pass is placed under a condition. 
+
+    Ex.
+        names = ['Dante', 'Destiny', 'Jaelyn', 'Corenda', 'Bean']
+
+        for name is names:
+            if 'j' in name.lower():
+                pass
+            else 
+                print(name)
