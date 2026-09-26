@@ -89,3 +89,28 @@ The "pass" keyword is mostly used as a place holder in a loop. Nothing gets exec
                 pass
             else 
                 print(name)
+
+
+## Break
+The "break" keyword terminates a loop. break statements are typically found within conditional statements/
+
+    Ex. 
+        names = ['Dante', 'Destiny', 'Jaelyn', 'Corenda', 'Bean']
+
+        for name is names:
+            if 'c' in name.lower():
+                break
+            else 
+                print(name)
+
+## Continue
+The "continue" keyword skips over an iteration if the condition is met and goes onto the next iteration.
+
+    Ex.
+        names = ['Dante', 'Destiny', 'Jaelyn', 'Corenda', 'Bean']
+
+        for name is names:
+            if 'c' in name.lower():
+                continue
+            else 
+                print(name)
