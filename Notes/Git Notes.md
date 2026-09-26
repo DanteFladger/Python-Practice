@@ -17,8 +17,9 @@
 ## Push from local machine to repo
     1. git status
         - Checks the current Git repository
-    2. git add .
+    2. git add "path to local resource"
         - Stages all changes for the next commit
+        - "." | Includes everything in the current folder
     3. git commit -m "Note"
         - Adds the desciption of what changed 
     4. git push
