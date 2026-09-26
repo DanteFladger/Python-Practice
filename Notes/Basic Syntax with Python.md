@@ -67,8 +67,17 @@ In This section, we will cover the following basic data types in Python:
 
 ## Integer
 ints store integer values. We can specify that the variable is a integer by using a whole number or we can use int() to cast numerical variables as an integer:
-### Literal:
+
+### Literal
     Untilized when you know the value while writing the code
         Ex. 
-            reties = 3
-            retures +
+            retries = 3 
+### Conversion
+    Untilized when the value arrives at runtime, as a string
+        Ex.
+            retries = int(user_text)
+
+### Notes
+    - Surrounging whitespace is ignored
+    - Truncates toward zero; does NOT round
+    - "True" is treated as 1, "False" is treated as 0
