@@ -54,3 +54,23 @@ The "range()" function cna be used with the for loop to execute a block of code 
     Ex.
         for i in range(3):
             print(i)
+
+### Nested "for" loops
+A "for" loop can have nested "for" loops. This is particulartly useful if the items you are iterating over contain subitems.
+
+    Ex. 
+        teams = [['Dante', 'Destiny'], ['Jaelyn', 'Corenda'], ['Daniel', 'Tori]]
+        for team in teams:
+            for name in team:
+                print(name)
+
+### "while" loops
+The while loop is used to execute code while its condition evaluates to be True.
+
+    Ex. 
+        i = 1
+        while i < 6:
+            print(i)
+            i += 1
+#### Infinite loops
+An infinite loop is a "While" loop that never terminates because the condition is always evaluated to be True.
